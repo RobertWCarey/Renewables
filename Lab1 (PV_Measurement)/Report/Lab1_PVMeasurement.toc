@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}Purpose}{3}% 
 \contentsline {section}{\numberline {2}Lab Questions}{3}% 
 \contentsline {subsection}{\numberline {2.1}Q1}{3}% 
-\contentsline {subsection}{\numberline {2.2}Q2}{3}% 
+\contentsline {subsection}{\numberline {2.2}Q2}{4}% 
 \contentsline {subsection}{\numberline {2.3}Q3}{4}% 
 \contentsline {section}{\numberline {3}Experimental Measurements}{4}% 
-\contentsline {subsection}{\numberline {3.1}Results}{5}% 
-\contentsline {subsubsection}{\numberline {3.1.1}Graphs}{5}% 
+\contentsline {subsection}{\numberline {3.1}Results}{6}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Graphs}{6}% 
 \contentsline {subsubsection}{\numberline {3.1.2}Tables}{7}% 

@@ -21,9 +21,9 @@
 	
 	\section{Purpose}
 		\begin{itemize}
-			\item To familiarize with the non-linear electrical property of solar PV generation.
-			\item To investigate the effects of solar radiation, shading and tilt angle of a solar panel on the electrical characteristic of solar cells.
-			\item To determine the optimal conditions for operating a PV panel in a circuit with a known load and understand maximum power point tracking principle (MPPT).
+			\item To become familiar with the non-linear electrical properties of solar PV generation.
+			\item To investigate the effects of solar radiation and shading levels, along with the tilt angle of a solar panel on the electrical characteristics of solar cells.
+			\item To determine the optimal conditions for operating a PV panel in a circuit with a known load and understand the maximum power point tracking (MPPT) principle.
 			\item To collect measurement data for construction of a PV array for the individual assignment.
 		\end{itemize}
 	
@@ -31,9 +31,9 @@
 	\subsection{Q1}
 		\textit{Briefly explain the mechanism of solar PV generation with the aid of diagram(s).}
 		
-		Solar Photovoltaic (PV) generation work by using multiple semicondictor devices (PV cells) that convert light into electrical energy. Usally these PV cells are arrange in arrays to increase electrical output.
+		Solar photovoltaic (PV) electricity generation works by using multiple semiconductor devices (PV cells) that convert light into electrical energy. Usually these PV cells are arranged in arrays to increase electrical output.
 		
-		An example is of PV cell construction is a wafer f p-type silicon with a thin layer of n-type silicon on one side. The p-type and n-type material acts as the positive and negative terminal of the cell respectivley. When light hits the PV cell photons of light will provide energy to the electrons to promote them from the valence band into the conduction band, leaving behind a positive "hole". At this point the electrons are now free to flow through the crystal structure and conduct electricity. This process is illustrated in \cref{fig:PVCellStructure}.
+		An example is of PV cell construction is a wafer of p-type silicon with a thin layer of n-type silicon on one side. The p-type and n-type material acts as the positive and negative terminal of the cell respectively. When light hits the PV cell, photons of light provide energy to the electrons to promote them from the valence band into the conduction band, leaving behind a positive electron "hole". At this point, the electrons are now free to flow through the crystal structure and conduct electricity. This process is illustrated in \cref{fig:PVCellStructure}.
 		
 		\begin{figure}[H]
 			\centering
@@ -42,23 +42,25 @@
 			\label{fig:PVCellStructure}
 		\end{figure}
 	
+	\newpage
 	\subsection{Q2}
 		\textit{Explain the three test conditions and show the results in both table format and graphical plots.}
 		
 		
-		We took measurements on two seperate days. For both days we took measurements at the same time of day and location with the solar panel in the same orientation. The only variable we change in our set up was the elvation of the solar panel.
+		We took measurements on two separate days, one with overcast conditions and one with full sun. For both days, we took measurements at the same time of day and location with the solar panel in the same orientation. The tilt angle of the PV panel was changed to provide multiple sets of data.
+		
 		\begin{enumerate}
-			\item Cloudy Day
+			\item Overcast Day
 			\begin{itemize}
-				\item Solar panel at 0 degrees elevation.
-				\item Solar panel at 40 degrees elevation.
-				\item Solar panel at 90 degrees elevation.
-				\item Solar Panel at 0 degrees elevation with 3 PV cells covered.
+				\item Solar panel with 0 degrees of tilt.
+				\item Solar panel with 40 degrees of tilt.
+				\item Solar panel with 90 degrees of tilt.
+				\item Solar Panel with 0 degrees of tilt with 3 PV cells covered.
 			\end{itemize}
 			\item Clear Sunny Day
 			\begin{itemize}
-				\item Solar panel at 0 degrees elevation.
-				\item Solar panel at 40 degrees elevation.
+				\item Solar panel with 0 degrees of tilt.
+				\item Solar panel with 40 degrees of tilt.
 			\end{itemize}
 		\end{enumerate}	
 	
@@ -67,12 +69,12 @@
 	\subsection{Q3}
 		\textit{Locate on the graphs the estimated maximum power points (MPPs). Comment on any variation of the MPPs and the implication of loading impedance values for the PV panel to maintain at MPPs under all solar intensity conditions.}
 		
-		From \cref{fig:VoltagevsPower} it can be seen that the MPP is much larger for higher insolation values (measured in Lux). This is due to the fact that there is a much larger current flow occouring with greater insolation.
+		From \cref{fig:VoltagevsPower} it can be seen that the MPP is much larger for higher insolation values (measured in lux). This is due to the fact that there is a much larger current flow occurring with greater insolation.
 		
-		\cref{fig:ResistancevsPower} illusrtates the implications of loading impedance on the MPP for different insolation. For our higher insolation measurements (>38400 Lux) the MPP was occouring at impedances of around 50$ \Omega $ however for lower insolation measurements (<8380 Lux) the MPP was occouring at impedances of around 250$ \Omega $. This illustrates that in order to maintain the MPP the load impedance nees to be reduced for greater insolation.
+		\Cref{fig:ResistancevsPower} illustrates the implications of loading impedance on the MPP for different insolation. For our higher insolation measurements ($>$38400 Lux), the MPP occurs at impedances of around 50$ \Omega $. However, for lower insolation measurements ($<$8380 Lux), the MPP occurs at impedances of around 250$ \Omega $. This illustrates that in order to maintain the MPP, the load impedance needs to be reduced for greater insolation.
 	
 	\section{Experimental Measurements}
-		To begin taking measurements of the current and voltage produced by the PV panel, the equipment, consisitng of the PV panel, a current meter, voltage meter and resistance box, were set up as shown in \cref{fig:circuit}
+		To begin taking measurements of the current and voltage produced by the PV panel, the equipment, consisting of the PV panel, a current meter, voltage meter and resistance box, were set up as shown in \cref{fig:circuit}
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.5\textwidth]{circuitdiagram}

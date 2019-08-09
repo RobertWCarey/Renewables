@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.8)  9 AUG 2019 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.15)  9 AUG 2019 11:25
 entering extended mode
 **./Lab1_PVMeasurement.tex
 (Lab1_PVMeasurement.tex
 LaTeX2e <2018-12-01>
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/base\article.cls"
+("F:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/base\size10.clo"
+("F:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -20,41 +20,41 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -70,25 +70,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen113
 ))
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen114
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -129,23 +129,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/placeins\placeins.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/float\float.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count103
 \float@exts=\toks21
@@ -169,7 +169,7 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+("F:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen122
@@ -182,35 +182,35 @@ LaTeX Font Info:    ... okay on input line 13.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks24
-) ("D:\ProgramFiles\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+) ("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("D:\ProgramFiles\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -267,16 +267,16 @@ Package pdftex.def Info: images/uts.jpg  used on input line 25.
 (pdftex.def)             Requested size: 542.02501pt x 343.10939pt.
  [1
 
-{C:/Users/Rob/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/uts.
-jpg>]) (Lab1_PVMeasurement.toc
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/uts
+.jpg>]) (Lab1_PVMeasurement.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
@@ -294,7 +294,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
 
-("D:\ProgramFiles\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+("F:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -308,49 +308,51 @@ Package pdftex.def Info: images/PVCellStructure.png  used on input line 40.
 <images/circuitdiagram.png, id=22, 231.86626pt x 121.95563pt>
 File: images/circuitdiagram.png Graphic file (type png)
 <use images/circuitdiagram.png>
-Package pdftex.def Info: images/circuitdiagram.png  used on input line 78.
+Package pdftex.def Info: images/circuitdiagram.png  used on input line 80.
 (pdftex.def)             Requested size: 271.0125pt x 142.55722pt.
-<images/lux_reading.jpg, id=24, 578.16pt x 770.88pt>
+ [4]
+<images/lux_reading.jpg, id=28, 578.16pt x 770.88pt>
 File: images/lux_reading.jpg Graphic file (type jpg)
 <use images/lux_reading.jpg>
-Package pdftex.def Info: images/lux_reading.jpg  used on input line 85.
+Package pdftex.def Info: images/lux_reading.jpg  used on input line 87.
 (pdftex.def)             Requested size: 162.60915pt x 216.80946pt.
- [4 <./images/circuitdiagram.png>]
 <images/VoltagevsCurrent.png, id=29, 636.12656pt x 368.87813pt>
 File: images/VoltagevsCurrent.png Graphic file (type png)
 <use images/VoltagevsCurrent.png>
-Package pdftex.def Info: images/VoltagevsCurrent.png  used on input line 96.
+Package pdftex.def Info: images/VoltagevsCurrent.png  used on input line 98.
 (pdftex.def)             Requested size: 433.62166pt x 251.44731pt.
-<images/VoltagevsPower.png, id=30, 635.37375pt x 392.96812pt>
+ [5 <./images/circuitdiagram.png> <./images/lux_reading.jpg>]
+<images/VoltagevsPower.png, id=34, 635.37375pt x 392.96812pt>
 File: images/VoltagevsPower.png Graphic file (type png)
 <use images/VoltagevsPower.png>
-Package pdftex.def Info: images/VoltagevsPower.png  used on input line 103.
+Package pdftex.def Info: images/VoltagevsPower.png  used on input line 105.
 (pdftex.def)             Requested size: 433.62166pt x 268.19815pt.
- [5 <./images/lux_reading.jpg> <./images/VoltagevsCurrent.png>]
-<images/ResistancevsPower.png, id=34, 635.37375pt x 392.96812pt>
+<images/ResistancevsPower.png, id=35, 635.37375pt x 392.96812pt>
 File: images/ResistancevsPower.png Graphic file (type png)
 <use images/ResistancevsPower.png>
-Package pdftex.def Info: images/ResistancevsPower.png  used on input line 110.
+Package pdftex.def Info: images/ResistancevsPower.png  used on input line 112.
 (pdftex.def)             Requested size: 433.62166pt x 268.19815pt.
- [6 <./images/VoltagevsPower.png> <./images/ResistancevsPower.png>] [7] [8] [9]
- (Lab1_PVMeasurement.aux) ) 
+
+[6 <./images/VoltagevsCurrent.png> <./images/VoltagevsPower.png>] [7 <./images/
+ResistancevsPower.png>] [8] [9] (Lab1_PVMeasurement.aux) ) 
 Here is how much of TeX's memory you used:
- 4630 strings out of 492945
- 78942 string characters out of 3135961
- 177348 words of memory out of 3000000
- 8461 multiletter control sequences out of 15000+200000
+ 4630 strings out of 492902
+ 78813 string characters out of 3133553
+ 177602 words of memory out of 3000000
+ 8472 multiletter control sequences out of 15000+200000
  8415 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,32p,613b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/ProgramFiles/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Lab1_PVMeasurement.pdf (10 pages, 3476176 bytes).
+ 41i,7n,32p,620b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Lab1_PVMeasurement.pdf (10 pages, 3483780 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
