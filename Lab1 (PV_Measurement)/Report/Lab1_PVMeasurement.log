@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.8)  11 AUG 2019 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.8)  11 AUG 2019 14:31
 entering extended mode
 **./Lab1_PVMeasurement.tex
 (Lab1_PVMeasurement.tex
@@ -308,29 +308,29 @@ Package pdftex.def Info: images/PVCellStructure.png  used on input line 40.
 <images/circuitdiagram.png, id=22, 231.86626pt x 121.95563pt>
 File: images/circuitdiagram.png Graphic file (type png)
 <use images/circuitdiagram.png>
-Package pdftex.def Info: images/circuitdiagram.png  used on input line 80.
+Package pdftex.def Info: images/circuitdiagram.png  used on input line 81.
 (pdftex.def)             Requested size: 271.0125pt x 142.55722pt.
  [4]
 <images/lux_reading.jpg, id=28, 578.16pt x 770.88pt>
 File: images/lux_reading.jpg Graphic file (type jpg)
 <use images/lux_reading.jpg>
-Package pdftex.def Info: images/lux_reading.jpg  used on input line 87.
+Package pdftex.def Info: images/lux_reading.jpg  used on input line 88.
 (pdftex.def)             Requested size: 162.60915pt x 216.80946pt.
 <images/VoltagevsCurrent.png, id=29, 636.12656pt x 368.87813pt>
 File: images/VoltagevsCurrent.png Graphic file (type png)
 <use images/VoltagevsCurrent.png>
-Package pdftex.def Info: images/VoltagevsCurrent.png  used on input line 98.
+Package pdftex.def Info: images/VoltagevsCurrent.png  used on input line 99.
 (pdftex.def)             Requested size: 433.62166pt x 251.44731pt.
  [5 <./images/circuitdiagram.png> <./images/lux_reading.jpg>]
 <images/VoltagevsPower.png, id=34, 635.37375pt x 392.96812pt>
 File: images/VoltagevsPower.png Graphic file (type png)
 <use images/VoltagevsPower.png>
-Package pdftex.def Info: images/VoltagevsPower.png  used on input line 105.
+Package pdftex.def Info: images/VoltagevsPower.png  used on input line 106.
 (pdftex.def)             Requested size: 433.62166pt x 268.19815pt.
 <images/ResistancevsPower.png, id=35, 635.37375pt x 392.96812pt>
 File: images/ResistancevsPower.png Graphic file (type png)
 <use images/ResistancevsPower.png>
-Package pdftex.def Info: images/ResistancevsPower.png  used on input line 112.
+Package pdftex.def Info: images/ResistancevsPower.png  used on input line 113.
 (pdftex.def)             Requested size: 433.62166pt x 268.19815pt.
 
 [6 <./images/VoltagevsCurrent.png> <./images/VoltagevsPower.png>] [7 <./images/
@@ -350,7 +350,7 @@ nts/type1/public/amsfonts/cm/cmbx12.pfb><D:/ProgramFiles/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr10.pfb><D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr17.pfb><D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><D:/ProgramFiles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Lab1_PVMeasurement.pdf (10 pages, 3485979 bytes).
+Output written on Lab1_PVMeasurement.pdf (10 pages, 3490072 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
