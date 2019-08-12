@@ -1,7 +1,7 @@
--ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Lab2 (Power_Conversion)\Renewables_Lab2\include
--ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Lab2 (Power_Conversion)\Renewables_Lab2\src
--ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Lab2 (Power_Conversion)\Renewables_Lab2\lib\PWM-master
--ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Lab2 (Power_Conversion)\Renewables_Lab2\lib\PWM-master\utility
+-ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Renewables\Lab2 (Power_Conversion)\Renewables_Lab2\include
+-ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Renewables\Lab2 (Power_Conversion)\Renewables_Lab2\src
+-ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Renewables\Lab2 (Power_Conversion)\Renewables_Lab2\lib\PWM-master
+-ID:\Sync\Education\University\2019_Sem2(SPR)\48550 (Renewable Energy Systems)\Labs\Renewables\Lab2 (Power_Conversion)\Renewables_Lab2\lib\PWM-master\utility
 -IC:\Users\Rob\.platformio\packages\framework-arduinoavr\cores\arduino
 -IC:\Users\Rob\.platformio\packages\framework-arduinoavr\variants\eightanaloginputs
 -IC:\Users\Rob\.platformio\packages\framework-arduinoavr\libraries\__cores__\arduino\EEPROM\src
