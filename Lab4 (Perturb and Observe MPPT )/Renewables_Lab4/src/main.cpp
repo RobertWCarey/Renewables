@@ -6,7 +6,8 @@ int32_t clkFreq = 16000000;
 
 // Constants
 const int pin_PWM = 10;
-const int pin_ADC = A0;
+const int ADC_Vout = A0;
+const int ADC_Vpv = A4;
 const int defaultDuty = 50;
 const int vref = 18;
 const int32_t defaultFreq = 100000; //frequency (in Hz)
@@ -38,7 +39,8 @@ void setup()
     digitalWrite(13, HIGH);
     pinMode(pin_PWM, OUTPUT);
   }
-  pinMode(pin_ADC, INPUT);
+  pinMode(ADC_Vout, INPUT);
+  pinMode(ADC_Vpv, INPUT);
   analogWrite(pin_PWM, getAWrite(defaultFreq, defaultDuty));
 }
 
@@ -108,11 +110,14 @@ bool parseCommand(String com)
   return false;
 }
 
-unsigned long period = 1000;
+unsigned long period = 250;
 bool toggle = 0;
 unsigned long waitTime = 0;
-double adjVoltage = 0;
-double convVolt = 0;
+double Vout_adjV = 0;
+double Vpv_adjV = 0;
+double Vout_CV = 0;
+double Vpv_CV = 0;
+double newP, oldP;
 
 void loop()
 {
@@ -138,31 +143,40 @@ void loop()
   }
 
   // time_now = millis();
-  // while (millis() > waitTime)
-  // {
-  //   // delay(500);
-  //   DDRB |= (1 << PORTB5);
-  //   if (toggle)
-  //     PORTB |= (1 << PORTB5);
-  //   else
-  //     PORTB &= ~(1 << PORTB5);
+  while (millis() > waitTime)
+  {
+    // delay(500);
+    DDRB |= (1 << PORTB5);
+    if (toggle)
+      PORTB |= (1 << PORTB5);
+    else
+      PORTB &= ~(1 << PORTB5);
 
-  //   toggle = !toggle;
+    toggle = !toggle;
 
-  //   convVolt = analogRead(pin_ADC) * 0.0049;
-  //   adjVoltage = convVolt / 0.18;
-  //   Serial.println(adjVoltage);
-  //   if (adjVoltage > vref)
-  //     Duty = Duty + 1;
-  //   else if (adjVoltage < vref)
-  //     Duty = Duty - 1;
+    Vout_CV = analogRead(ADC_Vout) * 0.0049;
+    Vout_adjV = Vout_CV / 0.18;
+    Vpv_CV = analogRead(ADC_Vpv) * 0.0049;
+    Vpv_adjV = Vpv_CV / 0.18;
+    Serial.print("Out:");
+    Serial.println(Vout_adjV);
+    Serial.print("PV:");
+    Serial.println(Vpv_adjV);
 
-  //   if (Duty > 90)
-  //     Duty = 90;
-  //   else if (Duty < 10)
-  //     Duty = 10;
+    newP = Vout_adjV * Vpv_adjV;
 
-  //   setDutyCycle(Duty);
-  //   waitTime = millis() + period;
-  // }
+    if (oldP > newP)
+      Duty = Duty - 1;
+    else
+      Duty = Duty + 1;
+
+    if (Duty > 90)
+      Duty = 90;
+    else if (Duty < 10)
+      Duty = 10;
+
+    setDutyCycle(Duty);
+    oldP = newP;
+    waitTime = millis() + period;
+  }
 }

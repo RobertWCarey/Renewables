@@ -6,7 +6,7 @@ int32_t clkFreq = 16000000;
 
 // Constants
 const int pin_PWM = 10;
-const int pin_ADC = A0;
+const int pin_ADC = A0; // Voltage of the PV Emulator
 const int defaultDuty = 50;
 const int vref = 18;
 const int32_t defaultFreq = 100000; //frequency (in Hz)
@@ -108,7 +108,7 @@ bool parseCommand(String com)
   return false;
 }
 
-unsigned long period = 1000;
+unsigned long period = 250;
 bool toggle = 0;
 unsigned long waitTime = 0;
 double adjVoltage = 0;
