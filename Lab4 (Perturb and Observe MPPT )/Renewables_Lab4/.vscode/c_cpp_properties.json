@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/include",
+                "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/src",
+                "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/lib/PWM-master",
+                "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/lib/PWM-master/utility",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/cores/arduino",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
+                "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                "C:/Users/Rob/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/include",
+                    "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/src",
+                    "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/lib/PWM-master",
+                    "d:/Sync/Education/University/2019_Sem2(SPR)/48550 (Renewable Energy Systems)/Labs/Renewables/Lab4 (Perturb and Observe MPPT )/Renewables_Lab4/lib/PWM-master/utility",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/cores/arduino",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/variants/eightanaloginputs",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src",
+                    "C:/Users/Rob/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src",
+                    "C:/Users/Rob/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40003",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10805",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"C:/Users/Rob/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe\" -mmcu=atmega328p"
+        }
+    ],
+    "version": 4
+}
