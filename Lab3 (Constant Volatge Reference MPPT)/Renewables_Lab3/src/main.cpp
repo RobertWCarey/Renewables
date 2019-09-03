@@ -108,8 +108,9 @@ bool parseCommand(String com)
   return false;
 }
 
-int period = 1000;
-unsigned long time_now = 0;
+unsigned long period = 1000;
+bool toggle = 0;
+unsigned long waitTime = 0;
 double adjVoltage = 0;
 double convVolt = 0;
 
@@ -136,23 +137,32 @@ void loop()
     }
   }
 
-  time_now = millis();
-  // while (millis() < time_now + period)
-  // {
-  delay(500);
-  convVolt = analogRead(pin_ADC) * 0.0049;
-  adjVoltage = convVolt / 0.18;
-  Serial.println(adjVoltage);
-  if (adjVoltage > vref)
-    Duty = Duty + 1;
-  else if (adjVoltage < vref)
-    Duty = Duty - 1;
+  // time_now = millis();
+  while (millis() > waitTime)
+  {
+    // delay(500);
+    DDRB |= (1 << PORTB5);
+    if (toggle)
+      PORTB |= (1 << PORTB5);
+    else
+      PORTB &= ~(1 << PORTB5);
 
-  if (Duty > 90)
-    Duty = 90;
-  else if (Duty < 10)
-    Duty = 10;
+    toggle = !toggle;
 
-  setDutyCycle(Duty);
-  // }
+    convVolt = analogRead(pin_ADC) * 0.0049;
+    adjVoltage = convVolt / 0.18;
+    Serial.println(adjVoltage);
+    if (adjVoltage > vref)
+      Duty = Duty + 1;
+    else if (adjVoltage < vref)
+      Duty = Duty - 1;
+
+    if (Duty > 90)
+      Duty = 90;
+    else if (Duty < 10)
+      Duty = 10;
+
+    setDutyCycle(Duty);
+    waitTime = millis() + period;
+  }
 }
