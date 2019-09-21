@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.15)  27 AUG 2019 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.15)  21 SEP 2019 17:40
 entering extended mode
 **./res_lab3.tex
 (res_lab3.tex
@@ -56,9 +56,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks17
 
 ("F:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
-("F:\Program Files\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
-Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
-)
 ("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -86,21 +83,82 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box27
 \@float@everytoks=\toks19
 \@floatcapt=\box28
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen113
+))
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks21
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks22
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks23
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 ) (res_lab3.aux)
 \openout1 = `res_lab3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -138,17 +196,17 @@ LaTeX Font Info:    ... okay on input line 11.
 
 ("F:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen113
-\scratchbox=\box29
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen114
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count104
+\scratchdimen=\dimen122
+\scratchbox=\box31
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen123
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks26
 ) ("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -192,57 +250,112 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
-<PVDiagram.png, id=1, 639.89063pt x 462.97969pt>
-File: PVDiagram.png Graphic file (type png)
-<use PVDiagram.png>
-Package pdftex.def Info: PVDiagram.png  used on input line 21.
+<Prework_images/PVDiagram.png, id=1, 639.89063pt x 462.97969pt>
+File: Prework_images/PVDiagram.png Graphic file (type png)
+<use Prework_images/PVDiagram.png>
+Package pdftex.def Info: Prework_images/PVDiagram.png  used on input line 26.
 (pdftex.def)             Requested size: 396.70256pt x 287.0303pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
  [1
 
-{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./PVDiagram.
-png>]
-<LTSpice_cropped.png, id=16, 400.49625pt x 649.67719pt>
-File: LTSpice_cropped.png Graphic file (type png)
-<use LTSpice_cropped.png>
-Package pdftex.def Info: LTSpice_cropped.png  used on input line 57.
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Prework_im
+ages/PVDiagram.png>]
+<Prework_images/LTSpice_cropped.png, id=16, 400.49625pt x 649.67719pt>
+File: Prework_images/LTSpice_cropped.png Graphic file (type png)
+<use Prework_images/LTSpice_cropped.png>
+Package pdftex.def Info: Prework_images/LTSpice_cropped.png  used on input line
+ 62.
 (pdftex.def)             Requested size: 264.46837pt x 429.0361pt.
-<IVCurve.png, id=18, 1443.89438pt x 694.84593pt>
-File: IVCurve.png Graphic file (type png)
-<use IVCurve.png>
-Package pdftex.def Info: IVCurve.png  used on input line 63.
+<Prework_images/IVCurve.png, id=18, 1443.89438pt x 694.84593pt>
+File: Prework_images/IVCurve.png Graphic file (type png)
+<use Prework_images/IVCurve.png>
+Package pdftex.def Info: Prework_images/IVCurve.png  used on input line 68.
 (pdftex.def)             Requested size: 528.93675pt x 254.53377pt.
+ [2 <./Prework_images/LTSpice_cropped.png>]
+<Lab3Results/IVCurve.png, id=23, 445.665pt x 271.0125pt>
+File: Lab3Results/IVCurve.png Graphic file (type png)
+<use Lab3Results/IVCurve.png>
+Package pdftex.def Info: Lab3Results/IVCurve.png  used on input line 104.
+(pdftex.def)             Requested size: 445.66391pt x 271.01183pt.
+<Lab3Results/PVCurve.png, id=24, 445.665pt x 269.50688pt>
+File: Lab3Results/PVCurve.png Graphic file (type png)
+<use Lab3Results/PVCurve.png>
+Package pdftex.def Info: Lab3Results/PVCurve.png  used on input line 110.
+(pdftex.def)             Requested size: 445.66391pt x 269.50621pt.
+ [3 <./Prework_images/IVCurve.png>]
+<Lab3Results/BuckTest_50DutyCycle_100KHz.png, id=29, 803.0pt x 504.88625pt>
+File: Lab3Results/BuckTest_50DutyCycle_100KHz.png Graphic file (type png)
+<use Lab3Results/BuckTest_50DutyCycle_100KHz.png>
+Package pdftex.def Info: Lab3Results/BuckTest_50DutyCycle_100KHz.png  used on i
+nput line 118.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+ [4 <./Lab3Results/IVCurve.png> <./Lab3Results/PVCurve.png>]
+<Lab3Results/0_30A_Supply.png, id=33, 803.0pt x 504.88625pt>
+File: Lab3Results/0_30A_Supply.png Graphic file (type png)
+<use Lab3Results/0_30A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_30A_Supply.png  used on input line 125.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab3Results/0_35A_Supply.png, id=34, 803.0pt x 504.88625pt>
+File: Lab3Results/0_35A_Supply.png Graphic file (type png)
+<use Lab3Results/0_35A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_35A_Supply.png  used on input line 131.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab3Results/0_40A_Supply.png, id=35, 803.0pt x 504.88625pt>
+File: Lab3Results/0_40A_Supply.png Graphic file (type png)
+<use Lab3Results/0_40A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_40A_Supply.png  used on input line 137.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
 
-[2 <./LTSpice_cropped.png>] [3 <./IVCurve.png>] (res_lab3.aux) ) 
+[5 <./Lab3Results/BuckTest_50DutyCycle_100KHz.png (PNG copy)> <./Lab3Results/0_
+30A_Supply.png (PNG copy)>]
+<Lab3Results/0_45A_Supply.png, id=39, 803.0pt x 504.88625pt>
+File: Lab3Results/0_45A_Supply.png Graphic file (type png)
+<use Lab3Results/0_45A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_45A_Supply.png  used on input line 143.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab3Results/0_50A_Supply.png, id=40, 803.0pt x 504.88625pt>
+File: Lab3Results/0_50A_Supply.png Graphic file (type png)
+<use Lab3Results/0_50A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_50A_Supply.png  used on input line 149.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+ [6 <./Lab3Results/0_35A_Supply.png (PNG copy)> <./Lab3Results/0_40A_Supply.png
+ (PNG copy)>]
+<Lab3Results/0_55A_Supply.png, id=44, 803.0pt x 504.88625pt>
+File: Lab3Results/0_55A_Supply.png Graphic file (type png)
+<use Lab3Results/0_55A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_55A_Supply.png  used on input line 155.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab3Results/0_60A_Supply.png, id=45, 803.0pt x 504.88625pt>
+File: Lab3Results/0_60A_Supply.png Graphic file (type png)
+<use Lab3Results/0_60A_Supply.png>
+Package pdftex.def Info: Lab3Results/0_60A_Supply.png  used on input line 161.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+ [7 <./Lab3Results/0_45A_Supply.png (PNG copy)> <./Lab3Results/0_50A_Supply.png
+ (PNG copy)>] [8 <./Lab3Results/0_55A_Supply.png (PNG copy)> <./Lab3Results/0_6
+0A_Supply.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[9] (res_lab3.aux) ) 
 Here is how much of TeX's memory you used:
- 3767 strings out of 492902
- 67995 string characters out of 3133553
- 137586 words of memory out of 3000000
- 7661 multiletter control sequences out of 15000+200000
- 7587 words of font info for 27 fonts, out of 3000000 for 9000
+ 4367 strings out of 492902
+ 76201 string characters out of 3133553
+ 160762 words of memory out of 3000000
+ 8238 multiletter control sequences out of 15000+200000
+ 6231 words of font info for 23 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,26p,329b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
-<F:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi5.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
-Output written on res_lab3.pdf (3 pages, 216379 bytes).
+ 41i,8n,26p,879b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><F:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><F:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy5.pfb>
+Output written on res_lab3.pdf (9 pages, 534613 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
