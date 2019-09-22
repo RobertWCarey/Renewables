@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.15)  21 SEP 2019 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.15)  22 SEP 2019 13:41
 entering extended mode
 **./res_lab3.tex
 (res_lab3.tex
@@ -144,21 +144,180 @@ LaTeX Info: Redefining \] on input line 2845.
 )
 ("F:\Program Files\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
-) (res_lab3.aux)
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/minted\minted.sty"
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("F:\Program Files\MiKTeX 2.9\tex/latex/fvextra\fvextra.sty"
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count104
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2019/01/15
+
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count105
+\FV@InFile=\read1
+\FV@TabBox=\box31
+\c@FancyVerbLine=\count106
+\FV@StepNumber=\count107
+\FV@OutFile=\write3
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count108
+\output=\toks25
+\linenoprevgraf=\count109
+\linenumbersep=\dimen122
+\linenumberwidth=\dimen123
+\c@linenumber=\count110
+\c@pagewiselinenumber=\count111
+\c@LN@truepage=\count112
+\c@internallinenumber=\count113
+\c@internallinenumbers=\count114
+\quotelinenumbersep=\dimen124
+\bframerule=\dimen125
+\bframesep=\dimen126
+\bframebox=\box32
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count115
+\c@FV@TrueTabCounter=\count116
+\FV@TabBox@Group=\box33
+\FV@TmpLength=\skip46
+\c@FV@HighlightLinesStart=\count117
+\c@FV@HighlightLinesStop=\count118
+\FV@LoopCount=\count119
+\FV@NCharsBox=\box34
+\FV@BreakIndent=\dimen127
+\FV@BreakIndentNChars=\count120
+\FV@BreakSymbolSepLeft=\dimen128
+\FV@BreakSymbolSepLeftNChars=\count121
+\FV@BreakSymbolSepRight=\dimen129
+\FV@BreakSymbolSepRightNChars=\count122
+\FV@BreakSymbolIndentLeft=\dimen130
+\FV@BreakSymbolIndentLeftNChars=\count123
+\FV@BreakSymbolIndentRight=\dimen131
+\FV@BreakSymbolIndentRightNChars=\count124
+\c@FancyVerbLineBreakLast=\count125
+\FV@LineBox=\box35
+\FV@LineIndentBox=\box36
+\FV@LineWidth=\dimen132
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count126
+\calc@Bcount=\count127
+\calc@Adimen=\dimen133
+\calc@Bdimen=\dimen134
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count128
+\calc@Cskip=\skip49
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/ifplatform\ifplatform.sty"
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\catchfile.sty"
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+))
+("F:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
+("F:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count129
+\decimalpart=\count130
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+("F:\Program Files\MiKTeX 2.9\tex/latex/framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip50
+\fb@frw=\dimen135
+\fb@frh=\dimen136
+\FrameRule=\dimen137
+\FrameSep=\dimen138
+)
+\minted@appexistsfile=\read2
+\minted@bgbox=\box37
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count131
+\c@minted@pygmentizecounter=\count132
+\@float@every@listing=\toks26
+\c@listing=\count133
+)
+runsystem(if not exist _minted-res_lab3 mkdir _minted-res_lab3)...executed.
+
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > re
+s_lab3.aex <nul: /p x=^%~$PATH:i>> res_lab3.aex)...executed.
+
+runsystem(del res_lab3.aex)...executed.
+
+ (res_lab3.aux)
 \openout1 = `res_lab3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -196,53 +355,26 @@ LaTeX Font Info:    ... okay on input line 13.
 
 ("F:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen122
-\scratchbox=\box31
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen123
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count134
+\scratchdimen=\dimen139
+\scratchbox=\box38
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen140
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks28
 ) ("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 ("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("F:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -250,112 +382,202 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-<Prework_images/PVDiagram.png, id=1, 639.89063pt x 462.97969pt>
-File: Prework_images/PVDiagram.png Graphic file (type png)
-<use Prework_images/PVDiagram.png>
-Package pdftex.def Info: Prework_images/PVDiagram.png  used on input line 26.
-(pdftex.def)             Requested size: 396.70256pt x 287.0303pt.
+(titlepage.tex
+<uts.jpg, id=1, 668.2566pt x 423.0204pt>
+File: uts.jpg Graphic file (type jpg)
+<use uts.jpg>
+Package pdftex.def Info: uts.jpg  used on input line 26.
+(pdftex.def)             Requested size: 528.93675pt x 334.82793pt.
  [1
 
-{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Prework_im
-ages/PVDiagram.png>]
-<Prework_images/LTSpice_cropped.png, id=16, 400.49625pt x 649.67719pt>
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./uts.jpg>])
+ (res_lab3.toc)
+\tf@toc=\write5
+\openout5 = `res_lab3.toc'.
+
+ [1] (res_lab3.lof)
+\tf@lof=\write6
+\openout6 = `res_lab3.lof'.
+
+ [2]
+<Prework_images/PVDiagram.png, id=19, 639.89063pt x 462.97969pt>
+File: Prework_images/PVDiagram.png Graphic file (type png)
+<use Prework_images/PVDiagram.png>
+Package pdftex.def Info: Prework_images/PVDiagram.png  used on input line 29.
+(pdftex.def)             Requested size: 396.70256pt x 287.0303pt.
+ [3 <./Prework_images/PVDiagram.png>]
+<Prework_images/LTSpice_cropped.png, id=26, 400.49625pt x 649.67719pt>
 File: Prework_images/LTSpice_cropped.png Graphic file (type png)
 <use Prework_images/LTSpice_cropped.png>
 Package pdftex.def Info: Prework_images/LTSpice_cropped.png  used on input line
- 62.
+ 65.
 (pdftex.def)             Requested size: 264.46837pt x 429.0361pt.
-<Prework_images/IVCurve.png, id=18, 1443.89438pt x 694.84593pt>
+<Prework_images/IVCurve.png, id=28, 1443.89438pt x 694.84593pt>
 File: Prework_images/IVCurve.png Graphic file (type png)
 <use Prework_images/IVCurve.png>
-Package pdftex.def Info: Prework_images/IVCurve.png  used on input line 68.
+Package pdftex.def Info: Prework_images/IVCurve.png  used on input line 71.
 (pdftex.def)             Requested size: 528.93675pt x 254.53377pt.
- [2 <./Prework_images/LTSpice_cropped.png>]
-<Lab3Results/IVCurve.png, id=23, 445.665pt x 271.0125pt>
+ [4 <./Prework_images/LTSpice_cropped.png>]
+<Lab3Results/IVCurve.png, id=34, 445.665pt x 271.0125pt>
 File: Lab3Results/IVCurve.png Graphic file (type png)
 <use Lab3Results/IVCurve.png>
-Package pdftex.def Info: Lab3Results/IVCurve.png  used on input line 104.
-(pdftex.def)             Requested size: 445.66391pt x 271.01183pt.
-<Lab3Results/PVCurve.png, id=24, 445.665pt x 269.50688pt>
+Package pdftex.def Info: Lab3Results/IVCurve.png  used on input line 105.
+(pdftex.def)             Requested size: 396.70256pt x 241.2417pt.
+<Lab3Results/PVCurve.png, id=35, 445.665pt x 269.50688pt>
 File: Lab3Results/PVCurve.png Graphic file (type png)
 <use Lab3Results/PVCurve.png>
-Package pdftex.def Info: Lab3Results/PVCurve.png  used on input line 110.
-(pdftex.def)             Requested size: 445.66391pt x 269.50621pt.
- [3 <./Prework_images/IVCurve.png>]
-<Lab3Results/BuckTest_50DutyCycle_100KHz.png, id=29, 803.0pt x 504.88625pt>
+Package pdftex.def Info: Lab3Results/PVCurve.png  used on input line 111.
+(pdftex.def)             Requested size: 396.70256pt x 239.90147pt.
+ [5 <./Prework_images/IVCurve.png>]
+<Lab3Results/BuckTest_50DutyCycle_100KHz.png, id=40, 803.0pt x 504.88625pt>
 File: Lab3Results/BuckTest_50DutyCycle_100KHz.png Graphic file (type png)
 <use Lab3Results/BuckTest_50DutyCycle_100KHz.png>
 Package pdftex.def Info: Lab3Results/BuckTest_50DutyCycle_100KHz.png  used on i
-nput line 118.
+nput line 120.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
- [4 <./Lab3Results/IVCurve.png> <./Lab3Results/PVCurve.png>]
-<Lab3Results/0_30A_Supply.png, id=33, 803.0pt x 504.88625pt>
+ [6 <./Lab3Results/IVCurve.png> <./Lab3Results/PVCurve.png>]
+<Lab3Results/0_30A_Supply.png, id=45, 803.0pt x 504.88625pt>
 File: Lab3Results/0_30A_Supply.png Graphic file (type png)
 <use Lab3Results/0_30A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_30A_Supply.png  used on input line 125.
+Package pdftex.def Info: Lab3Results/0_30A_Supply.png  used on input line 127.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
-<Lab3Results/0_35A_Supply.png, id=34, 803.0pt x 504.88625pt>
+<Lab3Results/0_35A_Supply.png, id=46, 803.0pt x 504.88625pt>
 File: Lab3Results/0_35A_Supply.png Graphic file (type png)
 <use Lab3Results/0_35A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_35A_Supply.png  used on input line 131.
+Package pdftex.def Info: Lab3Results/0_35A_Supply.png  used on input line 133.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
-<Lab3Results/0_40A_Supply.png, id=35, 803.0pt x 504.88625pt>
+<Lab3Results/0_40A_Supply.png, id=47, 803.0pt x 504.88625pt>
 File: Lab3Results/0_40A_Supply.png Graphic file (type png)
 <use Lab3Results/0_40A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_40A_Supply.png  used on input line 137.
+Package pdftex.def Info: Lab3Results/0_40A_Supply.png  used on input line 139.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
 
-[5 <./Lab3Results/BuckTest_50DutyCycle_100KHz.png (PNG copy)> <./Lab3Results/0_
+[7 <./Lab3Results/BuckTest_50DutyCycle_100KHz.png (PNG copy)> <./Lab3Results/0_
 30A_Supply.png (PNG copy)>]
-<Lab3Results/0_45A_Supply.png, id=39, 803.0pt x 504.88625pt>
+<Lab3Results/0_45A_Supply.png, id=51, 803.0pt x 504.88625pt>
 File: Lab3Results/0_45A_Supply.png Graphic file (type png)
 <use Lab3Results/0_45A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_45A_Supply.png  used on input line 143.
+Package pdftex.def Info: Lab3Results/0_45A_Supply.png  used on input line 145.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
-<Lab3Results/0_50A_Supply.png, id=40, 803.0pt x 504.88625pt>
+<Lab3Results/0_50A_Supply.png, id=52, 803.0pt x 504.88625pt>
 File: Lab3Results/0_50A_Supply.png Graphic file (type png)
 <use Lab3Results/0_50A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_50A_Supply.png  used on input line 149.
+Package pdftex.def Info: Lab3Results/0_50A_Supply.png  used on input line 151.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
- [6 <./Lab3Results/0_35A_Supply.png (PNG copy)> <./Lab3Results/0_40A_Supply.png
+ [8 <./Lab3Results/0_35A_Supply.png (PNG copy)> <./Lab3Results/0_40A_Supply.png
  (PNG copy)>]
-<Lab3Results/0_55A_Supply.png, id=44, 803.0pt x 504.88625pt>
+<Lab3Results/0_55A_Supply.png, id=56, 803.0pt x 504.88625pt>
 File: Lab3Results/0_55A_Supply.png Graphic file (type png)
 <use Lab3Results/0_55A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_55A_Supply.png  used on input line 155.
+Package pdftex.def Info: Lab3Results/0_55A_Supply.png  used on input line 157.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
-<Lab3Results/0_60A_Supply.png, id=45, 803.0pt x 504.88625pt>
+<Lab3Results/0_60A_Supply.png, id=57, 803.0pt x 504.88625pt>
 File: Lab3Results/0_60A_Supply.png Graphic file (type png)
 <use Lab3Results/0_60A_Supply.png>
-Package pdftex.def Info: Lab3Results/0_60A_Supply.png  used on input line 161.
+Package pdftex.def Info: Lab3Results/0_60A_Supply.png  used on input line 163.
 (pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
- [7 <./Lab3Results/0_45A_Supply.png (PNG copy)> <./Lab3Results/0_50A_Supply.png
- (PNG copy)>] [8 <./Lab3Results/0_55A_Supply.png (PNG copy)> <./Lab3Results/0_6
-0A_Supply.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+ [9 <./Lab3Results/0_45A_Supply.png (PNG copy)> <./Lab3Results/0_50A_Supply.png
+ (PNG copy)>] [10 <./Lab3Results/0_55A_Supply.png (PNG copy)> <./Lab3Results/0_
+60A_Supply.png (PNG copy)>]
+\openout3 = `res_lab3.pyg'.
+
+
+(_minted-res_lab3/default-pyg-prefix.pygstyle)
+(_minted-res_lab3/default.pygstyle)
+(_minted-res_lab3/18FB8EAE1BB868893ABAF37104CE5B6A3126FD28601748A75CD2178057490
+A85.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 5.
+)
+\openout4 = `res_lab3.pyg'.
+
+
+(_minted-res_lab3/C4431A50C3B0EF03D216BC3E736D04373C777F83901DE817E57941D22B0F0
+849.pygtex) [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-[9] (res_lab3.aux) ) 
+[13]
+<Lab4Results/IV_Curve.png, id=77, 619.56468pt x 405.01312pt>
+File: Lab4Results/IV_Curve.png Graphic file (type png)
+<use Lab4Results/IV_Curve.png>
+Package pdftex.def Info: Lab4Results/IV_Curve.png  used on input line 306.
+(pdftex.def)             Requested size: 396.70256pt x 259.32492pt.
+<Lab4Results/PV_Curve.png, id=78, 619.56468pt x 406.51875pt>
+File: Lab4Results/PV_Curve.png Graphic file (type png)
+<use Lab4Results/PV_Curve.png>
+Package pdftex.def Info: Lab4Results/PV_Curve.png  used on input line 312.
+(pdftex.def)             Requested size: 396.70256pt x 260.28896pt.
+ [14]
+<Lab4Results/BuckTest_50DutyCycle_100KHz.png, id=82, 803.0pt x 504.88625pt>
+File: Lab4Results/BuckTest_50DutyCycle_100KHz.png Graphic file (type png)
+<use Lab4Results/BuckTest_50DutyCycle_100KHz.png>
+Package pdftex.def Info: Lab4Results/BuckTest_50DutyCycle_100KHz.png  used on i
+nput line 320.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+ [15 <./Lab4Results/IV_Curve.png> <./Lab4Results/PV_Curve.png>]
+<Lab4Results/0_30A_Supply.png, id=86, 803.0pt x 504.88625pt>
+File: Lab4Results/0_30A_Supply.png Graphic file (type png)
+<use Lab4Results/0_30A_Supply.png>
+Package pdftex.def Info: Lab4Results/0_30A_Supply.png  used on input line 328.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab4Results/0_35A_Supply.png, id=87, 803.0pt x 504.88625pt>
+File: Lab4Results/0_35A_Supply.png Graphic file (type png)
+<use Lab4Results/0_35A_Supply.png>
+Package pdftex.def Info: Lab4Results/0_35A_Supply.png  used on input line 334.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab4Results/0_40A_Supply.png, id=88, 803.0pt x 504.88625pt>
+File: Lab4Results/0_40A_Supply.png Graphic file (type png)
+<use Lab4Results/0_40A_Supply.png>
+Package pdftex.def Info: Lab4Results/0_40A_Supply.png  used on input line 340.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+
+[16 <./Lab4Results/BuckTest_50DutyCycle_100KHz.png (PNG copy)> <./Lab4Results/0
+_30A_Supply.png (PNG copy)>]
+<Lab4Results/0_45A_Supply.png, id=92, 803.0pt x 504.88625pt>
+File: Lab4Results/0_45A_Supply.png Graphic file (type png)
+<use Lab4Results/0_45A_Supply.png>
+Package pdftex.def Info: Lab4Results/0_45A_Supply.png  used on input line 346.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+<Lab4Results/0_50A_Supply.png, id=93, 803.0pt x 504.88625pt>
+File: Lab4Results/0_50A_Supply.png Graphic file (type png)
+<use Lab4Results/0_50A_Supply.png>
+Package pdftex.def Info: Lab4Results/0_50A_Supply.png  used on input line 352.
+(pdftex.def)             Requested size: 396.70256pt x 249.43025pt.
+ [17 <./Lab4Results/0_35A_Supply.png (PNG copy)> <./Lab4Results/0_40A_Supply.pn
+g (PNG copy)>] [18 <./Lab4Results/0_45A_Supply.png (PNG copy)> <./Lab4Results/0
+_50A_Supply.png (PNG copy)>]
+\openout3 = `res_lab3.pyg'.
+
+
+(_minted-res_lab3/DDA354DE8419BB1EC232FD30698274303126FD28601748A75CD2178057490
+A85.pygtex) [19] (res_lab3.aux)
+runsystem(del res_lab3.pyg)...executed.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4367 strings out of 492902
- 76201 string characters out of 3133553
- 160762 words of memory out of 3000000
- 8238 multiletter control sequences out of 15000+200000
- 6231 words of font info for 23 fonts, out of 3000000 for 9000
+ 7659 strings out of 492902
+ 143942 string characters out of 3133553
+ 265196 words of memory out of 3000000
+ 11436 multiletter control sequences out of 15000+200000
+ 7611 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,26p,879b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><F:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><F:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb>
-Output written on res_lab3.pdf (9 pages, 534613 bytes).
+ 37i,9n,26p,869b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb><F:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><F:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on res_lab3.pdf (20 pages, 2941651 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

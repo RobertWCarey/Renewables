@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Introduction}{3}% 
+\contentsline {section}{\numberline {2}Constant Voltage Reference MPPT}{3}% 
+\contentsline {subsection}{\numberline {2.1}Pre-Work}{3}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Explain the working principle of the PV emulator.}{3}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Explain how the duty cycle should change to make the PV panel voltage constant and operate at the reference}{5}% 
+\contentsline {subsection}{\numberline {2.2}Lab Work}{5}% 
+\contentsline {subsubsection}{\numberline {2.2.1}PV Emulator}{5}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Testing of Constant Voltage Reference MPPT}{6}% 
+\contentsline {subsection}{\numberline {2.3}Analysis}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Explain, with aid of equations and diagrams, how the buck converter serves as a variable resistor to the PV panel}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Explain your part of the code to achieve constant voltage reference MPPT with the support of experimental results}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.3}Compare the constant voltage reference MPPT performance against the identified true MPPs}{12}% 
+\contentsline {section}{\numberline {3}Perturb and Observe (P\&O) MPPT}{13}% 
+\contentsline {subsection}{\numberline {3.1}Pre-Work}{13}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Explain why the power information at a particular point can be simplified to:\\$\text {Power information at point } X = V_{out} \times V_{PV}$}{13}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Design a Perturb and Observe Algorithm in Your Own Words}{13}% 
+\contentsline {subsection}{\numberline {3.2}Lab Work}{13}% 
+\contentsline {subsubsection}{\numberline {3.2.1}PV Emulator}{13}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Testing of P\&O MPPT Algorithm}{15}% 
+\contentsline {subsection}{\numberline {3.3}Analysis}{19}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Explain your part of the code to achieve P\&O MPPT with the support of experimental results}{19}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Compare the P\&O MPPT performance against the identified true MPPs}{19}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Is P\&O a perfect maximum power point algorithm? Why or why not? Explain your argument with the experimental results if possible}{19}% 
+\contentsline {subsubsection}{\numberline {3.3.4}Suggest a way to improve the tracking accuracy of P\&O}{19}% 

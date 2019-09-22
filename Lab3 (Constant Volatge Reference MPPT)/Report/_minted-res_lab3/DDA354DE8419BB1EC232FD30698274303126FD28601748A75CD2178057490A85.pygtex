@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{Vout\PYGZus{}CV} \PYG{o}{=} \PYG{n}{analogRead}\PYG{p}{(}\PYG{n}{ADC\PYGZus{}Vout}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mf}{0.0049}\PYG{p}{;}
+\PYG{n}{Vout\PYGZus{}adjV} \PYG{o}{=} \PYG{n}{Vout\PYGZus{}CV} \PYG{o}{/} \PYG{l+m+mf}{0.18}\PYG{p}{;}
+\PYG{n}{Vpv\PYGZus{}CV} \PYG{o}{=} \PYG{n}{analogRead}\PYG{p}{(}\PYG{n}{ADC\PYGZus{}Vpv}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mf}{0.0049}\PYG{p}{;}
+\PYG{n}{Vpv\PYGZus{}adjV} \PYG{o}{=} \PYG{n}{Vpv\PYGZus{}CV} \PYG{o}{/} \PYG{l+m+mf}{0.18}\PYG{p}{;}
+
+\PYG{n}{newP} \PYG{o}{=} \PYG{n}{Vout\PYGZus{}adjV} \PYG{o}{*} \PYG{n}{Vpv\PYGZus{}adjV}\PYG{p}{;}
+
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{oldP} \PYG{o}{\PYGZgt{}} \PYG{n}{newP}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{n}{Duty} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k}{else}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{n}{Duty} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{Duty} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{90}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{l+m+mi}{90}\PYG{p}{;}
+\PYG{k}{else} \PYG{n+nf}{if} \PYG{p}{(}\PYG{n}{Duty} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{10}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{l+m+mi}{10}\PYG{p}{;}
+
+\PYG{n}{setDutyCycle}\PYG{p}{(}\PYG{n}{Duty}\PYG{p}{);}
+\PYG{n}{oldP} \PYG{o}{=} \PYG{n}{newP}\PYG{p}{;}	 					
+\end{Verbatim}

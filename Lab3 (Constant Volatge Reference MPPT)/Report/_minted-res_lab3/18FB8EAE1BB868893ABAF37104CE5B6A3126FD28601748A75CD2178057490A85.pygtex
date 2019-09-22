@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{convVolt} \PYG{o}{=} \PYG{n}{analogRead}\PYG{p}{(}\PYG{n}{pin\PYGZus{}ADC}\PYG{p}{)} \PYG{o}{*} \PYG{l+m+mf}{0.0049}\PYG{p}{;}
+\PYG{n}{adjVoltage} \PYG{o}{=} \PYG{n}{convVolt} \PYG{o}{/} \PYG{l+m+mf}{0.18}\PYG{p}{;}
+\PYG{n}{Serial}\PYG{p}{.}\PYG{n}{println}\PYG{p}{(}\PYG{n}{adjVoltage}\PYG{p}{);}
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{adjVoltage} \PYG{o}{\PYGZgt{}} \PYG{n}{vref}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{n}{Duty} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k}{else} \PYG{n+nf}{if} \PYG{p}{(}\PYG{n}{adjVoltage} \PYG{o}{\PYGZlt{}} \PYG{n}{vref}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{n}{Duty} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{Duty} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{90}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{l+m+mi}{90}\PYG{p}{;}
+\PYG{k}{else} \PYG{n+nf}{if} \PYG{p}{(}\PYG{n}{Duty} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{10}\PYG{p}{)}
+	\PYG{n}{Duty} \PYG{o}{=} \PYG{l+m+mi}{10}\PYG{p}{;}
+\end{Verbatim}
