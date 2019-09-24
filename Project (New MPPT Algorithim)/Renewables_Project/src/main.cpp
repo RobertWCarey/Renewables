@@ -6,8 +6,8 @@ int32_t clkFreq = 16000000;
 
 // Constants
 const int pin_PWM = 10;
-const int ADC_Vout = A0; // Buck-Boost output
-const int ADC_Vpv = A4;  // PV output voltage
+const int ADC_Vout = A0; // Buck-Boost output pin
+const int ADC_Vpv = A4;  // PV output voltage pin
 const int defaultDuty = 50;
 const int vref = 18;
 const int32_t defaultFreq = 100000; //frequency (in Hz)
@@ -23,8 +23,6 @@ int getAWrite(int32_t freq, int duty);
 void setDutyCycle(int duty);
 // Updates the frequency for pin_PWM
 void setFreq(int32_t freq);
-// Parses any serial commands recieved
-bool parseCommand(String com);
 
 void setup()
 {
@@ -64,53 +62,7 @@ void setFreq(int32_t freq)
   analogWrite(pin_PWM, getAWrite(freq, Duty));
 }
 
-bool parseCommand(String com)
-{
-  String part1, part2;
-  int32_t val;
-
-  part1 = com.substring(0, com.indexOf(' '));
-  part2 = com.substring(com.indexOf(' ') + 1);
-
-  // Duty Cycle
-  if (part1.equalsIgnoreCase("D"))
-  {
-    val = part2.toInt();
-    if (val > 100 || val < 0)
-    {
-      return false;
-    }
-    else
-    {
-      setDutyCycle(val);
-      Serial.print("Duty Cycle: ");
-      Serial.print(Duty);
-      Serial.println("%");
-      return true;
-    }
-  }
-  // Frequency
-  else if (part1.equalsIgnoreCase("F"))
-  {
-    val = part2.toInt();
-    if (val < 0)
-    {
-      return false;
-    }
-    else
-    {
-      setFreq(val);
-      Serial.print("Frequency: ");
-      Serial.print(Freq);
-      Serial.println("Hz");
-      return true;
-    }
-  }
-
-  return false;
-}
-
-unsigned long period = 250;
+unsigned long period = 1000;
 bool toggle = 0;
 unsigned long waitTime = 0;
 double Vout_adjV = 0;
@@ -118,34 +70,21 @@ double Vpv_adjV = 0;
 double Vout_CV = 0;
 double Vpv_CV = 0;
 double newP, oldP;
+double V1 = 16;
+double V2 = 21;
+int largeStep = 10;
+int smallStep = 1;
+
+void peturb(double newP)
+{
+}
 
 void loop()
 {
-  if (Serial.available())
-  {
-    char c = Serial.read();
-    if (c == '\n')
-    {
-      if (!parseCommand(Command))
-      {
-        Serial.println("Invalid Input");
-        Serial.println("");
-        Serial.println("Valid Inputs:");
-        Serial.println("'D 50', Duty Cycle Update");
-        Serial.println("'F 10000', Frequency Update");
-      }
-      Command = "";
-    }
-    else
-    {
-      Command += c;
-    }
-  }
-
   // time_now = millis();
   while (millis() > waitTime)
   {
-    // delay(500);
+    // toggle LED to indicate sample time
     DDRB |= (1 << PORTB5);
     if (toggle)
       PORTB |= (1 << PORTB5);
@@ -163,12 +102,25 @@ void loop()
     Serial.print("PV:");
     Serial.println(Vpv_adjV);
 
-    newP = Vout_adjV * Vpv_adjV;
+    if (Vpv_adjV < V1)
+    {
+      Duty = Duty - largeStep;
+    }
+    else if (Vpv_adjV > V2)
+    {
+      Duty = Duty + largeStep;
+    }
+    else //peturb
+    {
+      newP = Vout_adjV * Vpv_adjV;
 
-    if (oldP > newP)
-      Duty = Duty - 1;
-    else
-      Duty = Duty + 1;
+      if (oldP > newP)
+        Duty = Duty - smallStep;
+      else
+        Duty = Duty + smallStep;
+
+      oldP = newP;
+    }
 
     if (Duty > 90)
       Duty = 90;
@@ -176,7 +128,7 @@ void loop()
       Duty = 10;
 
     setDutyCycle(Duty);
-    oldP = newP;
+
     waitTime = millis() + period;
   }
 }
