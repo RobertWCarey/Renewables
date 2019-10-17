@@ -1,0 +1,73 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{harrabi2017comparative}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=7afff65fa7077fa415bfe07d6633253d}{%
+           family={Harrabi},
+           familyi={H\bibinitperiod},
+           given={Naziha},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=15c714c7dbea7cc72b4d1891779d7774}{%
+           family={Kharrat},
+           familyi={K\bibinitperiod},
+           given={Maher},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e48c206e6046c0f8f0e84669bee0e2e8}{%
+           family={Souissi},
+           familyi={S\bibinitperiod},
+           given={Mansour},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f72ff875bbc4f309321066893febd277}{%
+           family={Aitouche},
+           familyi={A\bibinitperiod},
+           given={Abdel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5187032d9c5594f4b757fdc5b48fcd4d}
+      \strng{fullhash}{95525ff3f67998d624798eddee515aed}
+      \strng{bibnamehash}{5187032d9c5594f4b757fdc5b48fcd4d}
+      \strng{authorbibnamehash}{5187032d9c5594f4b757fdc5b48fcd4d}
+      \strng{authornamehash}{5187032d9c5594f4b757fdc5b48fcd4d}
+      \strng{authorfullhash}{95525ff3f67998d624798eddee515aed}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 18th International Conference on Sciences and Techniques of Automatic Control and Computer Engineering (STA)}
+      \field{title}{Comparative study of fuzzy logic peak power trackers for a photovoltaic system}
+      \field{year}{2017}
+      \field{pages}{539\bibrangedash 545}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
