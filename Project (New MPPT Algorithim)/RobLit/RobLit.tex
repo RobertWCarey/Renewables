@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\parindent 0pt
+\parskip 2ex
+\usepackage[margin=0.5in,bottom=1in,top=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cleveref}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage{cite}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}	
+	\section{Adaptive MPPT}
+		\subsection{What particular issue of MPPT has this paper \cite{6732969} addressed?}
+			This paper is attempting to address the two main issues of MPPT, those being the ability to respond quickly to varying irradiance as well as their ability to track the MPP without excessive oscillation. The ability of the algorithm to optimise these as much as possible results in the maximum achievable power being extracted from the attached PV panel.
+		\subsection{What is the algorithm of the proposed MPPT?}
+			The proposed MPPT algorithm consists of three sub algorithms. The first being the Current Perturbation Algorithm (CPA). It uses the concepts from the conventional P\&0 algorithm but uses current instead of voltage. The second is an Adaptive Control Algorithm (ACA). This is used to determine an operating point much closer to the MPP when the system is exposed to sudden changes in irradiance. The final algorithm is the Variable Perturbation Algorithm (VPA). This algorithm is used to reduce the size of the perturbation steps every time the MPP is crossed.
+		\subsection{How does this MPPT algorithm address the issue?}
+			The CPA portion of the MPPT algorithm is taking care of keeping the PV panel operating around the MPP, it is the addition of the ACA and VPA that deal with main issues of oscillation and responsiveness. The ACA moves the operating point of the system closer to the MPP using coarse perturbation size when it sees a large change in irradiance. This increases the responsiveness of the system. The VPA dynamically reduces the perturbation steps when it sees a change in the polarity of the power. This effectively reduces the oscillations of the system around the MPP.
+		\subsection{What are the improvements shown from this MPPT?}
+			The main improvements shown from this MPPT are its reduction in the amount of oscillations once the region of the MPP is found. It also improves the responsiveness of the MPPT by increasing the size of the perturbation steps with large changes in irradiance.
+		\subsection{Are there any potential issues with this proposed MPPT?}
+			The potential issues of this MPPT are that it will still see some level of delay when exposed to changes in irradiance and some level of oscillation. While this is minimal compared to some other algorithms the potential loses could become much larger when scaled up to large solar systems.
+	\bibliography{RobReferences}
+	\bibliographystyle{ieeetran}
+				
+\end{document}
